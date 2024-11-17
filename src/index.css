@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  margin: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 300px;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
