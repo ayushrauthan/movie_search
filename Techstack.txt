@@ -1,0 +1,29 @@
+1. Frontend
+React.js: A JavaScript library for building user interfaces. It enables you to create dynamic, responsive, and interactive single-page applications (SPA).
+useState and useEffect: React hooks used for managing state and side effects in functional components.
+JSX: A syntax extension for JavaScript used to write HTML-like code inside JavaScript.
+Axios: A promise-based HTTP client used to make API requests to fetch movie data from the OMDb API.
+
+
+2. Backend (API)
+OMDb API: The Open Movie Database API, used to get movie data (including movie titles, posters, ratings, etc.). This API provides the movie information that your app displays when users search for a movie.
+
+
+3. Deployment
+GitHub Pages: A service that hosts your static website directly from your GitHub repository. Used to deploy your app and make it publicly accessible.
+gh-pages: A package that makes it easy to deploy your app to GitHub Pages by automating the process of building and pushing the build folder to the gh-pages branch of your GitHub repository.
+
+
+4. Development Tools
+npm (Node Package Manager): A package manager for JavaScript, used to install dependencies such as React, Axios, and gh-pages.
+Create React App: A tool to set up a React project with a single command (npx create-react-app), providing a default setup for building React apps quickly.
+
+
+5. Styling
+Inline CSS: Basic inline styles are used to style the app directly within the components for simplicity, especially since we’re focusing on beginner-friendly code.
+You could also use a more advanced CSS framework (like Bootstrap or Material-UI) for a more polished look if desired.
+Summary of Tech Stack
+React.js for the frontend
+Axios for API calls
+OMDb API for fetching movie data
+GitHub Pages + gh-pages for deployment
